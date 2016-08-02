@@ -42,7 +42,7 @@ return gulp.src(app.scripts)
 ```
 
 ```javascript
-gulp.src(app.css)
+return gulp.src(app.css)
   // possibly rebase css urls and other preprocessing here
   .pipe(concat('app.css'))
   .pipe(gulp.dest('./dist/build'));
