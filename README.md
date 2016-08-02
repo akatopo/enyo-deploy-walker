@@ -54,7 +54,7 @@ return gulp.src(app.css)
 
 `(string, { verbose: boolean }) → `[`DependencyCollection`](#dependencycollection)
 
-Given a `bootplatePath` path to a directory, it parses its `deploy.json`, or `package.json` if `deploy.json` is not present, and returns a `DependencyCollection` object.
+Given a `bootplatePath` path to a directory, it parses its `deploy.json`, or `package.js` if `deploy.json` is not present, and returns a `DependencyCollection` object.
 
 Prints logging messages if `opts.verbose` is truthy.
 
