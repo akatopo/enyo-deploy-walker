@@ -1,6 +1,10 @@
 # :feet: enyo-deploy-walker
 
-A simple node library to extract the paths of sript, css, and asset dependencies for an enyo bootplate project, useful when wanting to build enyo apps with gulp etc.
+A simple node library to extract the paths of script, css, and asset dependencies for an enyo bootplate project, useful when wanting to build enyo apps with gulp etc.
+
+## Installation
+
+`$ npm install enyo-deploy-walker --save-dev`
 
 ## Example usage
 

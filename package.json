@@ -1,8 +1,23 @@
 {
   "name": "enyo-deploy-walker",
+  "author": "Alex Katopodis <akatopo@users.noreply.github.com>",
+  "version": "0.1.0",
+  "description": "A simple node library to extract the paths of script, css, and asset dependencies for an enyo bootplate project",
+  "license": "ISC",
+  "keywords": [
+    "enyo"
+  ],
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akatopo/enyo-deploy-walker"
+  },
+  "bugs": {
+    "url": "https://github.com/akatopo/enyo-deploy-walker/issues"
+  },
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "prepublish": "gulp build"
   },
   "dependencies": {
     "chalk": "^1.1.1",
@@ -13,11 +28,11 @@
     "babel-core": "^6.1.2",
     "babel-preset-es2015": "^6.1.2",
     "del": "^2.2.0",
-    "jasmine": "^2.3.2",
-    "mock-fs": "^3.4.0",
+    "eslint": "~2.2.0",
+    "eslint-config-airbnb": "~6.1.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "eslint": "~2.2.0",
-    "eslint-config-airbnb": "~6.1.0"
+    "jasmine": "^2.3.2",
+    "mock-fs": "^3.4.0"
   }
 }
